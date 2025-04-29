@@ -1,0 +1,2 @@
+# SnipeX
+SnipeX Discord Bot 🎯
