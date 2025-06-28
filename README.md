@@ -1,20 +1,29 @@
-# SnipeX Discord Bot 🎯
+# 🔍 Rust Player Finder Discord Bot
 
-**SnipeX** is a simple Discord bot designed to search for **Rust** players using the BattleMetrics API.
+A simple Discord bot that lets you **search for Rust players** using the **BattleMetrics API**. It displays the player’s name, online status, and a link to their profile.
 
-## Features
+---
 
-- `!test` – Checks if the bot is running (responds with "Hello")
-- `!find <username>` – Searches for a Rust player via BattleMetrics and displays their online status
+## 🚀 Features
 
-## Requirements
+- `!test` command – checks if the bot is running.
+- `!find <username>` – searches for a Rust player by name and shows their online/offline status.
+
+---
+
+## ⚙️ Requirements
 
 - Python 3.8+
-- Libraries:
-  - `discord.py`
-  - `requests`
+- Discord Bot Token
+- BattleMetrics API Token
+- Discord Intents enabled (set to **All Intents** in Discord Developer Portal)
 
-Install dependencies:
+---
+
+## 📦 Installation
+
+1. **Clone the repository** or download the project files.
+2. **Install dependencies:**
 
 ```bash
 pip install discord.py requests
