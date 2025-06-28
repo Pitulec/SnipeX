@@ -26,4 +26,4 @@ A simple Discord bot that lets you **search for Rust players** using the **Battl
 2. **Install dependencies:**
 
 ```bash
-pip install discord.py requests
+pip install discord.py requests python-dotenv
